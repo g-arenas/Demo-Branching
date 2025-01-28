@@ -9,11 +9,11 @@ public class UnitTest1
     }
     
     [Fact]
-    public void FalseIsFalse()
+    public void FalseIsFalseAndStringIsEmpty()
     {
         //this was dumb
         Assert.False(true);
-        Assert.True(false);
+        Assert.Empty("");
     }
 }
 
